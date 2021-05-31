@@ -1,0 +1,12 @@
+import pyautogui
+size=pyautogui.size()
+print(size)
+mouse_pose=pyautogui.position()
+print(mouse_pose)
+print(pyautogui.onScreen(100,100))
+pyautogui.moveTo(20,1062, duration=1)
+pyautogui.click()
+pyautogui.moveTo(27,995, duration=0.3)
+pyautogui.click()
+pyautogui.moveTo(38, 890, duration = 0.5)
+pyautogui.click()
